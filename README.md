@@ -12,7 +12,7 @@ Create a one way sync engine in node.js that will regularly pulls  data from the
 ## Sync Engine Requirements
 
 * Must pull data from LumaMock class (given) frequently (every 10 seconds) for a specific start and end date range
-* Must sync data from now to 6 months in the future
+* Data sync data must go from now to six months in the future
 * Data sync must follow the order - facilities , providers, appointment, patients
 * Data synchronized must be stored in memory and output logs to stdout 
 * If data is already known, must provide a way to diff 2 versions where the Hospital version always wins. 
