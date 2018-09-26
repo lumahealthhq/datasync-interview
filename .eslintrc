@@ -1,0 +1,32 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "indent": [2, "tab", {"SwitchCase": 1}],
+    "no-undef": 2,
+    "no-unreachable": 2,
+    "no-unused-expressions": 1,
+    "comma-dangle": [1, "only-multiline"],
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclarator": true
+      }
+    }],
+    "no-shadow-restricted-names": 0,
+    "eqeqeq": [1, "smart"],
+    "no-dupe-keys": 2,
+    "no-duplicate-case": 2,
+    "no-extra-semi": 2,
+    "no-extra-parens": 2,
+    "max-depth": [1, 4],
+    "no-empty": 2
+  }
+}
