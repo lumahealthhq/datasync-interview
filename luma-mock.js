@@ -13,7 +13,7 @@ const logger = {
 
 LumaMock.prototype.login = function(callback) {
 	const self = this;
-	logger.info('LumaMock: logged in');
+	logger.info('LumaMock: logged in to API');
 	return callback();
 };
 
