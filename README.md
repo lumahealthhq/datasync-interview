@@ -2,7 +2,7 @@
 
 ## Problem Definition
 
-Luma needs to regularly synchronize appointments from busy hospital to a local database. The hospital exposes an API (encoded in `luma-mock.js` that providers data for appointment, providers, facilities and patients.
+Luma needs to regularly synchronize appointments from busy hospital to a local database. The hospital exposes an API (encoded in `luma-mock.js`) that providers data for appointment, providers, facilities and patients.
 
 ## Interview Task
 
