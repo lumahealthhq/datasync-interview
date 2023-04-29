@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/lumahealthhq/EngInterviewQuestion#readme",
   "dependencies": {
-    "moment": "^2.29.2"
+    "moment": "^2.29.4"
   }
 }
